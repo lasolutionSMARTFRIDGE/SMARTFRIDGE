@@ -1,6 +1,7 @@
 import org.sintef.jarduino.comm.Serial4JArduino;
 
 import Model.Donner;
+import View.Fenetre;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         }
         
         Donner donner = new Donner(serialPort);
+        Fenetre fenetre = new Fenetre(donner);
 		// TODO Auto-generated method stub
 
 	}

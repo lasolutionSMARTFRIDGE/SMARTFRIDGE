@@ -5,9 +5,10 @@ import Model.Interface_Model;
 public class DonnerInt implements Interface_Model {
 
 	@Override
-	public int GetTemperatures() {
+	public int[] GetTemperatures() {
 		// TODO Auto-generated method stub
-		return 0;
+		
+		return null;
 	}
 
 	@Override
