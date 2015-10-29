@@ -1,4 +1,5 @@
 package Model;
+import View.Jarduino;
 
-public class Donner implements Interface_Model {
+public class Donner extends Jarduino {
 }

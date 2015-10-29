@@ -1,8 +1,8 @@
 package Model;
 public interface Interface_Model {
 
-	abstract void GetTemperature();
+	abstract int GetTemperatures();
 
-	abstract void SetConsigne();
+	abstract void SetConsigne(int commande);
 
 }
