@@ -1,5 +1,6 @@
 package Model;
 public interface Interface_Model {
+	Donner donner=null;
 
 	abstract int[] GetTemperatures();
 

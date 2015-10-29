@@ -1,5 +1,7 @@
 import org.sintef.jarduino.comm.Serial4JArduino;
 
+import Model.Donner;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,6 +12,7 @@ public class Main {
             serialPort = Serial4JArduino.selectSerialPort();
         }
         
+        Donner donner = new Donner(serialPort);
 		// TODO Auto-generated method stub
 
 	}
